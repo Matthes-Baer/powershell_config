@@ -19,4 +19,5 @@ This config works best on powershell 7
   - `. C:\Users\<user_name>\Documents\powershell_custom.p1`
 6. Optionally, if using VS Code:
   - "Icons don't display in vs code integrated terminal after setting terminal.integrated.fontFamily" -> https://github.com/romkatv/powerlevel10k/issues/671
-7. Optionally, create own oh-my-posh config and update the path
+7. Optionally, create own oh-my-posh config and update the path to load in the adjusted file
+  - You can use the directory via `$env:POSH_THEMES_PATH` and put your adjusted file there if the env was already used (on Windows it points to like `C:\Users\<user_name>\AppData\Local\Programs\oh-my-posh\themes`)
