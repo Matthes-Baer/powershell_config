@@ -19,3 +19,4 @@ This config works best on powershell 7
   - `. C:\Users\<user_name>\Documents\powershell_custom.p1`
 6. Optionally, if using VS Code:
   - "Icons don't display in vs code integrated terminal after setting terminal.integrated.fontFamily" -> https://github.com/romkatv/powerlevel10k/issues/671
+7. Optionally, create own oh-my-posh config and update the path
