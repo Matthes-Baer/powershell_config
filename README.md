@@ -6,15 +6,15 @@ This config works best on powershell 7
 2. Remove .git directory
 3. Optionally create own repository to connect with
 4. Modules to install before using:
-  - Install-Module -Name PowerShellGet -Force -Scope CurrentUser
-  - Install-Module PSReadLine -Scope CurrentUser -Force
-  - Install-Module posh-git -Scope CurrentUser -Force
-  - winget install fzf
-  - winget install ajeetdsouza.zoxide
-  - Install-Module -Name PSFzF -RequiredVersion 2.6.1 -Scope CurrentUser
-  - Install-Module -Name Terminal-Icons -Repository PSGallery -Scope CurrentUser
-  - winget install JanDeDobbeleer.OhMyPosh
-  - Install-Module posh-git -Scope CurrentUser -Force
+  - `Install-Module -Name PowerShellGet -Force -Scope CurrentUser`
+  - `Install-Module PSReadLine -Scope CurrentUser -Force`
+  - `Install-Module posh-git -Scope CurrentUser -Force`
+  - `winget install fzf`
+  - `winget install ajeetdsouza.zoxide`
+  - `Install-Module -Name PSFzF -RequiredVersion 2.6.1 -Scope CurrentUser`
+  - `Install-Module -Name Terminal-Icons -Repository PSGallery -Scope CurrentUser`
+  - `winget install JanDeDobbeleer.OhMyPosh`
+  - `Install-Module posh-git -Scope CurrentUser -Force`
 5. Link to the powershell_custom.ps1 file in `$PROFILE`
   - `. C:\Users\<user_name>\Documents\powershell_custom.p1`
 6. Optionally, if using VS Code:
