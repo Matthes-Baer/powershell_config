@@ -35,3 +35,4 @@ This config works best on powershell 7
   - Example: z projects (navigates to a directory named "projects" if you've visited it before)
 - Git-Ac -m "commit message" → Adds all changes and commits with the specified message
   - Git-Ac -m "commit message" -p → Adds, commits, and pushes changes
+- `Tab` lets you interactively search and choose from possible completions, instead of cycling through them linearly.
